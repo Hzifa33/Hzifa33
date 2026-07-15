@@ -474,15 +474,21 @@ PROFILE STRATEGY — MAINTAIN THIS HIERARCHY
 
 ## GitHub Intelligence
 
+<!--
+  These cards are generated inside this repository by GitHub Actions.
+  They do not depend on a public statistics API and therefore remain available
+  even when third-party Vercel endpoints are rate-limited or temporarily down.
+-->
+
 <p align="center">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Hzifa33&theme=github_dark"
+      srcset="./output/github_dark/profile-details.svg"
     />
     <img
       width="96%"
-      src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Hzifa33&theme=github"
+      src="./output/github/profile-details.svg"
       alt="Hozaifa Abozaid GitHub profile details"
     />
   </picture>
@@ -492,23 +498,23 @@ PROFILE STRATEGY — MAINTAIN THIS HIERARCHY
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Hzifa33&theme=github_dark"
+      srcset="./output/github_dark/stats.svg"
     />
     <img
       width="46%"
-      src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Hzifa33&theme=github"
+      src="./output/github/stats.svg"
       alt="GitHub statistics"
     />
   </picture>
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Hzifa33&theme=github_dark"
+      srcset="./output/github_dark/most-commit-language.svg"
     />
     <img
       width="46%"
-      src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Hzifa33&theme=github"
-      alt="Most used commit languages"
+      src="./output/github/most-commit-language.svg"
+      alt="Most used commit languages during the last year"
     />
   </picture>
 </p>
@@ -517,26 +523,37 @@ PROFILE STRATEGY — MAINTAIN THIS HIERARCHY
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://streak-stats.demolab.com?user=Hzifa33&theme=github-dark-blue&hide_border=true&background=00000000"
+      srcset="./output/github_dark/streak.svg"
     />
     <img
-      width="70%"
-      src="https://streak-stats.demolab.com?user=Hzifa33&theme=transparent&hide_border=true"
+      width="46%"
+      src="./output/github/streak.svg"
       alt="GitHub contribution streak"
     />
   </picture>
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./output/github_dark/top-starred-repos.svg"
+    />
+    <img
+      width="46%"
+      src="./output/github/top-starred-repos.svg"
+      alt="Top starred original repositories"
+    />
+  </picture>
 </p>
 
 <p align="center">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=Hzifa33&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity"
+      srcset="./output/github_dark/contributions.svg"
     />
     <img
       width="96%"
-      src="https://github-readme-activity-graph.vercel.app/graph?username=Hzifa33&theme=github&hide_border=true&area=true&custom_title=Contribution%20Activity"
-      alt="GitHub contribution activity graph"
+      src="./output/github/contributions.svg"
+      alt="GitHub contribution activity during the last year"
     />
   </picture>
 </p>

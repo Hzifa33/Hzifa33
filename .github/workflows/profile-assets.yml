@@ -2,7 +2,7 @@ name: Profile Assets
 
 "on":
   schedule:
-    # Runs daily at 00:17 UTC (03:17 in Cairo during daylight-saving time).
+    # Runs daily at 00:17 UTC.
     - cron: "17 0 * * *"
   workflow_dispatch:
   push:
@@ -42,14 +42,29 @@ jobs:
           force_orphan: true
           commit_message: "chore: refresh contribution snake"
 
-  contribution-calendar-3d:
-    name: Generate 3D contribution calendar
+  repository-assets:
+    name: Generate local profile cards and 3D calendar
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
 
     steps:
       - name: Check out profile repository
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Generate local GitHub statistics cards
+        uses: tiennm99/ghstats@v1
+        with:
+          user: ${{ github.repository_owner }}
+          token: ${{ github.token }}
+          out: output
+          themes: github,github_dark
+          tz: Africa/Cairo
+          start_of_week: saturday
+          include_forks: "false"
+          include_private: "false"
+          commit_changes: "false"
 
       - name: Generate 3D contribution calendar
         uses: yoshi389111/github-profile-3d-contrib@v0.9.3
@@ -57,16 +72,16 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Commit generated calendars
+      - name: Commit generated repository assets
         shell: bash
         run: |
-          if [[ -z "$(git status --porcelain profile-3d-contrib)" ]]; then
-            echo "No 3D contribution changes to commit."
+          if [[ -z "$(git status --porcelain output profile-3d-contrib)" ]]; then
+            echo "No generated profile assets changed."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile-3d-contrib
-          git commit -m "chore: refresh 3D contribution calendar"
+          git add output profile-3d-contrib
+          git commit -m "chore: refresh profile statistics and 3D calendar"
           git push

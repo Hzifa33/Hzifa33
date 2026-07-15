@@ -1,272 +1,189 @@
-<!--
-  GitHub Profile README for Hzifa33
-  Design direction: deep navy, cyan and gold
-  Keep this repository public and name it exactly: Hzifa33
--->
+<div align="center">
 
-<p align="center">
-  <img
-    width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0B1220,50:172554,100:0EA5E9&text=HOZAIFA%20ABOZAID&fontColor=F8FAFC&fontSize=42&fontAlignY=38&desc=Frontend%20Developer%20%7C%20Open-Source%20Builder%20%7C%20Arabic-First%20Software&descAlignY=58&descSize=16&animation=fadeIn"
-    alt="Hozaifa Abozaid — Frontend Developer and Open-Source Builder"
-  />
-</p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:134E4A,100:0D1117&height=210&section=header&text=Hozaifa%20Abozaid&fontSize=46&fontColor=E6EDF3&fontAlignY=36&animation=fadeIn&desc=Full-Stack%20Web%20Developer&descAlignY=58&descSize=18&descColor=D4AF37" alt="Hozaifa Abozaid" />
 
-<p align="center">
-  <a href="https://github.com/Hzifa33">
-    <img src="https://img.shields.io/badge/GitHub-Hzifa33-0B1220?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile"/>
-  </a>
-  <a href="https://hzifa33.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-hzifa33.github.io-C9A227?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
-  </a>
-  <a href="https://github.com/Hzifa33?tab=followers">
-    <img src="https://img.shields.io/github/followers/Hzifa33?style=for-the-badge&logo=github&label=Followers&color=0EA5E9" alt="GitHub followers"/>
-  </a>
-  <a href="https://github.com/Hzifa33?tab=repositories">
-    <img src="https://img.shields.io/badge/Open%20Source-Builder-64748B?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Open-source builder"/>
-  </a>
-</p>
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=21&duration=3200&pause=900&color=2DD4BF&center=true&vCenter=true&width=700&lines=Full-Stack+Web+Developer;Customer+Success+%26+Client+Retention;IT+Specialist+%26+Automation+Builder;Building+Ibn+Muslim+Academy)](https://ibnmuslimacademy.com/)
+
+![Location](https://img.shields.io/badge/-Cairo%2C%20Egypt-134E4A?style=for-the-badge&logo=googlemaps&logoColor=E6EDF3)
+[![Email](https://img.shields.io/badge/-Email-2DD4BF?style=for-the-badge&logo=gmail&logoColor=0D1117)](mailto:wahdany2003@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/201147582248)
+[![Followers](https://img.shields.io/github/followers/Hzifa33?style=for-the-badge&logo=github&color=D4AF37&labelColor=0D1117&label=Followers)](https://github.com/Hzifa33?tab=followers)
+
+<sub><a href="#about">About</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="#tech-stack">Tech Stack</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="#github-analytics">Analytics</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="#featured-projects">Projects</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="#experience">Experience</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="#connect">Connect</a></sub>
+
+</div>
 
 <br/>
 
-<table>
-  <tr>
-    <td width="28%" align="center" valign="middle">
-      <img
-        src="https://github.com/Hzifa33.png?size=220"
-        width="180"
-        alt="Hozaifa Abozaid"
-      />
-    </td>
-    <td width="72%" valign="middle">
-      <h2>About Me</h2>
-      <p>
-        I am a frontend developer and open-source builder focused on creating
-        <strong>Arabic-first</strong>, <strong>multilingual</strong>, and
-        <strong>offline-capable</strong> software.
-      </p>
-      <p>
-        I turn practical problems into accessible products with clean interfaces,
-        reliable local data workflows, responsive layouts, and thoughtful user experience.
-      </p>
-      <p>
-        My current work includes desktop applications, educational platforms,
-        developer tools, and web experiences that support both RTL and LTR languages.
-      </p>
-    </td>
-  </tr>
-</table>
+## About
 
+Full-stack developer based in Cairo, building the technology behind **[Ibn Muslim Academy](https://ibnmuslimacademy.com/)** — an online academy teaching the Qur'an, Arabic, and Islamic sciences in seven languages, with an AI study advisor running on Gemini underneath it.
+
+Five years across the stack: React and TypeScript on the front end, APIs, database architecture, and authentication on the back end, and enough time in the terminal to automate away most of the repetitive parts. Before moving into engineering full-time, spent years in client-facing work — customer retention, freelance video editing, social media management — and two years teaching Arabic and Qur'an recitation to non-native speakers. That mix is probably why the products end up genuinely easy for non-technical people to use.
+
+<div align="center">
+
+![Experience](https://img.shields.io/badge/Experience-5%2B%20Years-2DD4BF?style=for-the-badge&labelColor=0D1117)
+![Projects](https://img.shields.io/badge/Projects-50%2B%20Completed-D4AF37?style=for-the-badge&labelColor=0D1117)
+![Clients](https://img.shields.io/badge/Clients-100%2B%20Happy-2DD4BF?style=for-the-badge&labelColor=0D1117)
+
+</div>
+
+## Tech Stack
+
+<div align="center">
+
+**Frontend**
 <br/>
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,tailwind,vite&theme=dark" alt="Frontend stack" />
 
-## Engineering Focus
-
-<table>
-  <tr>
-    <td width="33%" align="center">
-      <img src="https://cdn.simpleicons.org/react/61DAFB" width="42" alt="Product engineering"/>
-      <br/><br/>
-      <strong>Product Engineering</strong>
-      <br/>
-      From idea and interface to deployment and maintenance.
-    </td>
-    <td width="33%" align="center">
-      <img src="https://cdn.simpleicons.org/googletranslate/0EA5E9" width="42" alt="Arabic-first experience"/>
-      <br/><br/>
-      <strong>Arabic-First UX</strong>
-      <br/>
-      Native RTL experiences without compromising modern design.
-    </td>
-    <td width="33%" align="center">
-      <img src="https://cdn.simpleicons.org/github/181717" width="42" alt="Open source"/>
-      <br/><br/>
-      <strong>Open Source</strong>
-      <br/>
-      Useful software, clear documentation, and practical releases.
-    </td>
-  </tr>
-</table>
-
+**Backend & Automation**
 <br/>
+<img src="https://skillicons.dev/icons?i=nodejs,py,go,git,github,linux,bash&theme=dark" alt="Backend and tooling" />
 
-## Featured Projects
-
-<p align="center">
-  <a href="https://github.com/Hzifa33/raff">
-    <img
-      width="49%"
-      src="https://github-stats-extended.vercel.app/api/pin/?username=Hzifa33&repo=raff&theme=transparent&hide_border=true"
-      alt="Raf repository"
-    />
-  </a>
-  <a href="https://github.com/Hzifa33/ibnmuslim">
-    <img
-      width="49%"
-      src="https://github-stats-extended.vercel.app/api/pin/?username=Hzifa33&repo=ibnmuslim&theme=transparent&hide_border=true"
-      alt="Ibn Muslim Academy repository"
-    />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Hzifa33/quraanroot">
-    <img
-      width="49%"
-      src="https://github-stats-extended.vercel.app/api/pin/?username=Hzifa33&repo=quraanroot&theme=transparent&hide_border=true"
-      alt="Quraan Root repository"
-    />
-  </a>
-  <a href="https://github.com/Hzifa33/RTVE-subdl">
-    <img
-      width="49%"
-      src="https://github-stats-extended.vercel.app/api/pin/?username=Hzifa33&repo=RTVE-subdl&theme=transparent&hide_border=true"
-      alt="RTVE Subtitle Downloader repository"
-    />
-  </a>
-</p>
-
+**Design**
 <br/>
+<img src="https://skillicons.dev/icons?i=figma,ps&theme=dark" alt="Design tools" />
 
-## Technology Stack
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img
-      src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind,electron,nodejs,python,git,github,cloudflare,netlify,vscode&perline=8"
-      alt="Technology stack"
-    />
-  </a>
-</p>
-
-<br/>
-
-## What I Build
-
-| Area | Focus |
-|---|---|
-| Web Applications | Responsive, multilingual interfaces with modern frontend tooling |
-| Desktop Software | Offline-first Electron applications with local data management |
-| Arabic Products | Native RTL layouts, Arabic search normalization, and accessible UX |
-| Open-Source Tools | Practical utilities, clear releases, and maintainable documentation |
-| Deployment | GitHub Actions, Cloudflare, Netlify, and production-ready delivery |
-
-<br/>
-
-## Current Work
-
-<table>
-  <tr>
-    <td>
-      <strong><a href="https://github.com/Hzifa33/raff">Raf — Arabic Library Management System</a></strong>
-      <br/>
-      An open-source, offline-first desktop system for cataloging, circulation,
-      barcode labels, inventory, multi-volume loans, backups, and data integrity.
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Electron-Desktop-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron"/>
-      <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=111827" alt="JavaScript"/>
-      <img src="https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square&logo=windows&logoColor=white" alt="Windows"/>
-      <img src="https://img.shields.io/badge/Mode-Offline-0EA5E9?style=flat-square" alt="Offline"/>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong><a href="https://github.com/Hzifa33/ibnmuslim">Ibn Muslim Academy</a></strong>
-      <br/>
-      A multilingual educational web experience with Arabic-first design,
-      responsive layouts, modern interactions, and cloud deployment.
-      <br/><br/>
-      <img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=flat-square&logo=react&logoColor=111827" alt="React"/>
-      <img src="https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
-      <img src="https://img.shields.io/badge/RTL-LTR-C9A227?style=flat-square" alt="RTL and LTR"/>
-      <img src="https://img.shields.io/badge/Cloudflare-Deployed-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare"/>
-    </td>
-  </tr>
-</table>
-
-<br/>
+</div>
 
 ## GitHub Analytics
 
-<p align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://github-stats-extended.vercel.app/api?username=Hzifa33&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000"
-    />
-    <img
-      width="49%"
-      src="https://github-stats-extended.vercel.app/api?username=Hzifa33&show_icons=true&theme=default&hide_border=true"
-      alt="Hozaifa's GitHub statistics"
-    />
-  </picture>
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=Hzifa33&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=00000000"
-    />
-    <img
-      width="49%"
-      src="https://github-stats-extended.vercel.app/api/top-langs/?username=Hzifa33&layout=compact&langs_count=8&theme=default&hide_border=true"
-      alt="Most used languages"
-    />
-  </picture>
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<p align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=Hzifa33&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity"
-    />
-    <img
-      width="96%"
-      src="https://github-readme-activity-graph.vercel.app/graph?username=Hzifa33&theme=github&hide_border=true&area=true&custom_title=Contribution%20Activity"
-      alt="GitHub contribution activity"
-    />
-  </picture>
-</p>
+<img width="100%" src="https://github-readme-stats.vercel.app/api?username=Hzifa33&show_icons=true&hide_border=true&bg_color=0D1117&title_color=2DD4BF&icon_color=D4AF37&text_color=E6EDF3" alt="GitHub stats" />
 
-<br/>
+</td>
+<td width="50%" valign="top">
 
-## Working Principles
+<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hzifa33&layout=compact&hide_border=true&bg_color=0D1117&title_color=2DD4BF&text_color=E6EDF3" alt="Top languages" />
 
-- Build for real users and real constraints.
-- Keep interfaces clean, responsive, and easy to understand.
-- Treat RTL and multilingual support as core architecture, not an afterthought.
-- Prefer reliable offline workflows when privacy and continuity matter.
-- Document projects so other people can install, use, and contribute confidently.
+</td>
+</tr>
+</table>
 
-<br/>
+<div align="center">
 
-## Languages
+<img src="https://streak-stats.demolab.com/?user=Hzifa33&hide_border=true&background=0D1117&ring=2DD4BF&fire=D4AF37&currStreakLabel=2DD4BF&sideLabels=E6EDF3&currStreakNum=E6EDF3&sideNums=E6EDF3&dates=8B949E" alt="GitHub streak stats" />
 
-<p>
-  <img src="https://img.shields.io/badge/Arabic-Native-0EA5E9?style=for-the-badge" alt="Arabic"/>
-  <img src="https://img.shields.io/badge/English-Working%20Proficiency-334155?style=for-the-badge" alt="English"/>
-  <img src="https://img.shields.io/badge/Spanish-Learning-C9A227?style=for-the-badge" alt="Spanish"/>
-</p>
+<img src="https://github-profile-trophy.vercel.app/?username=Hzifa33&theme=onedark&no-frame=true&no-bg=true&row=1&column=6&margin-w=8" alt="GitHub trophies" />
 
-<br/>
+</div>
+
+## Featured Projects
+
+### Ibn Muslim Academy
+
+A multilingual online academy for Qur'an, Arabic, and Islamic sciences, built solo end to end — seven languages with full RTL/LTR handling, a static SEO layer generated per language, and an AI study advisor built on Gemini and proxied through a Netlify function.
+
+<img src="https://img.shields.io/badge/-React-0D1117?style=flat-square&logo=react&logoColor=61DAFB" alt="React" /> <img src="https://img.shields.io/badge/-TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=3178C6" alt="TypeScript" /> <img src="https://img.shields.io/badge/-Vite-0D1117?style=flat-square&logo=vite&logoColor=646CFF" alt="Vite" /> <img src="https://img.shields.io/badge/-Tailwind%20CSS-0D1117?style=flat-square&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" /> <img src="https://img.shields.io/badge/-Framer%20Motion-0D1117?style=flat-square&logo=framer&logoColor=D4AF37" alt="Framer Motion" /> <img src="https://img.shields.io/badge/-Gemini%20AI-0D1117?style=flat-square&logo=googlegemini&logoColor=8E75B2" alt="Gemini AI" /> <img src="https://img.shields.io/badge/-Netlify-0D1117?style=flat-square&logo=netlify&logoColor=00C7B7" alt="Netlify" />
+
+**[Live Site ↗](https://ibnmuslimacademy.com/)** &nbsp;·&nbsp; **[Repository ↗](https://github.com/Hzifa33/ibnmuslim)**
+
+---
+
+### raff
+
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Hzifa33&repo=raff&hide_border=true&bg_color=0D1117&title_color=2DD4BF&icon_color=D4AF37&text_color=E6EDF3" alt="raff repository" />
+
+Offline-first Arabic library management system covering cataloging, circulation, barcode labels, inventory, multi-volume loans, backups, and data integrity — open source.
+
+---
+
+### Dar Al-Salam Quran
+
+A second Qur'an-education front end from the same period as Ibn Muslim Academy.
+
+<!-- Send over the live link and stack for this one and it can get the same full write-up as the Academy above. -->
+
+Also deploys and customizes a couple of Telegram automation tools — **TG-FileStreamBot** for instant file streaming and **mirror-leech-telegram-bot** for cloud and torrent downloads.
+
+## Experience
+
+<details>
+<summary><b>Customer Service Representative — Client Retention</b> &nbsp;·&nbsp; eDreams (Prime Subscription) &nbsp;·&nbsp; Nov 2025 – Present</summary>
+
+- Manages customer accounts and Prime subscriptions end to end
+- Resolves issues through direct customer interaction to strengthen relationships and reduce churn
+- Uses negotiation and persuasion techniques to lower subscription cancellation rates
+
+</details>
+
+<details>
+<summary><b>Back-End Web Developer</b> &nbsp;·&nbsp; 2024 – 2026</summary>
+
+- Builds robust, scalable server-side applications with modern frameworks
+- Designs RESTful APIs, database architecture, and authentication systems
+
+</details>
+
+<details>
+<summary><b>Front-End Web Developer</b> &nbsp;·&nbsp; 2021 – 2025</summary>
+
+- Designs and builds interactive, visually polished interfaces
+- Ships clean, maintainable code focused on performance and UX
+- Selected work: Ibn Muslim Academy, Dar Al-Salam Quran
+
+</details>
+
+<details>
+<summary><b>Video Editor & Graphic Designer</b> &nbsp;·&nbsp; Freelance &nbsp;·&nbsp; 4 years</summary>
+
+- Produces and edits video content and integrated visual assets for social media campaigns
+
+</details>
+
+<details>
+<summary><b>Social Media Manager</b> &nbsp;·&nbsp; Freelance &nbsp;·&nbsp; 3 years</summary>
+
+- Manages accounts, schedules content, and grows reach and engagement across platforms
+
+</details>
+
+<details>
+<summary><b>Arabic & Qur'an Teacher for Non-Native Speakers</b> &nbsp;·&nbsp; 2 years</summary>
+
+- Teaches Arabic fundamentals and Qur'an recitation using simplified, level-appropriate methods
+
+</details>
+
+<details>
+<summary><b>Data Entry Specialist</b> &nbsp;·&nbsp; Freelance &nbsp;·&nbsp; 2 years</summary>
+
+- Processes and enters data with high accuracy and speed, keeping records error-free
+
+</details>
+
+## Education and Languages
+
+**BA in Languages and Translation — Spanish Language and Literature**
+&nbsp;&nbsp;Upper Second Class Honours (2:1) · Second in Class
+
+![Arabic](https://img.shields.io/badge/Arabic-Native-2DD4BF?style=flat-square&labelColor=0D1117)
+![Spanish](https://img.shields.io/badge/Spanish-B2%20Upper%20Intermediate-D4AF37?style=flat-square&labelColor=0D1117)
+![English](https://img.shields.io/badge/English-B1%20Intermediate-2DD4BF?style=flat-square&labelColor=0D1117)
+
+## Contribution Activity
+
+<!-- This needs the included snake.yml workflow running in this repo first — see the setup notes that came with this file. -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hzifa33/Hzifa33/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hzifa33/Hzifa33/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Hzifa33/Hzifa33/output/github-contribution-grid-snake.svg" width="100%"/>
+</picture>
 
 ## Connect
 
-<p align="center">
-  <a href="https://github.com/Hzifa33">
-    <img src="https://img.shields.io/badge/GitHub-View%20Profile-0B1220?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  <a href="https://hzifa33.github.io">
-    <img src="https://img.shields.io/badge/Portfolio-Visit%20Website-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
-  </a>
-</p>
+<div align="center">
 
-<p align="center">
-  <strong>Building useful software with clarity, purpose, and respect for the user.</strong>
-</p>
+[![Email](https://img.shields.io/badge/-Email%20Me-2DD4BF?style=for-the-badge&logo=gmail&logoColor=0D1117)](mailto:wahdany2003@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/-Message%20on%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/201147582248)
 
-<p align="center">
-  <img
-    width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0EA5E9,50:172554,100:0B1220"
-    alt="Footer"
-  />
-</p>
+![Profile Views](https://komarev.com/ghpvc/?username=Hzifa33&color=2DD4BF&style=for-the-badge&label=Profile+Views)
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:134E4A,100:0D1117&height=110&section=footer" alt="footer" />
+
+</div>

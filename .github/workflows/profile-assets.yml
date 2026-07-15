@@ -1,0 +1,72 @@
+name: Profile Assets
+
+"on":
+  schedule:
+    # Runs daily at 00:17 UTC (03:17 in Cairo during daylight-saving time).
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-assets.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  contribution-snake:
+    name: Generate contribution snake
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Generate light and dark SVG files
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=%23C9A227&color_dots=%23EBEDF0,%23BAE6FD,%237DD3FC,%230EA5E9,%23172554
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23C9A227&color_dots=%23161B22,%231E3A5F,%230EA5E9,%230284C7,%23C9A227
+
+      - name: Publish generated files to output branch
+        uses: peaceiris/actions-gh-pages@v4.1.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          force_orphan: true
+          commit_message: "chore: refresh contribution snake"
+
+  contribution-calendar-3d:
+    name: Generate 3D contribution calendar
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v5
+
+      - name: Generate 3D contribution calendar
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit generated calendars
+        shell: bash
+        run: |
+          if [[ -z "$(git status --porcelain profile-3d-contrib)" ]]; then
+            echo "No 3D contribution changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib
+          git commit -m "chore: refresh 3D contribution calendar"
+          git push

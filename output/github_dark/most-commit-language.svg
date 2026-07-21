@@ -2,18 +2,18 @@
   <rect x="0.5" y="0.5" width="339" height="199" rx="6" fill="#0d1117" stroke="#2e343b" stroke-opacity="1.00"/>
   <text x="20" y="30" font-size="15" font-weight="600" fill="#0366d6">Most Commit Language (last year)</text>
   <rect x="20" y="47" width="10" height="10" fill="#e34c26" stroke="#0d1117" stroke-width="1"/>
-  <text x="36" y="55" font-size="11" fill="#77909c">HTML 45.42%</text>
+  <text x="36" y="55" font-size="11" fill="#77909c">HTML 44.03%</text>
   <rect x="20" y="67" width="10" height="10" fill="#f1e05a" stroke="#0d1117" stroke-width="1"/>
-  <text x="36" y="75" font-size="11" fill="#77909c">JavaScript 20.75%</text>
+  <text x="36" y="75" font-size="11" fill="#77909c">JavaScript 22.75%</text>
   <rect x="20" y="87" width="10" height="10" fill="#663399" stroke="#0d1117" stroke-width="1"/>
-  <text x="36" y="95" font-size="11" fill="#77909c">CSS 15.81%</text>
+  <text x="36" y="95" font-size="11" fill="#77909c">CSS 15.78%</text>
   <rect x="20" y="107" width="10" height="10" fill="#3572A5" stroke="#0d1117" stroke-width="1"/>
-  <text x="36" y="115" font-size="11" fill="#77909c">Python 12.57%</text>
+  <text x="36" y="115" font-size="11" fill="#77909c">Python 12.16%</text>
   <rect x="20" y="127" width="10" height="10" fill="#3178c6" stroke="#0d1117" stroke-width="1"/>
-  <text x="36" y="135" font-size="11" fill="#77909c">TypeScript 5.46%</text>
-  <path d="M250.00,55.00 A55.00,55.00 0 0 1 265.62,162.73 L258.52,138.76 A30.00,30.00 0 0 0 250.00,80.00 Z" fill="#e34c26" stroke="#0d1117" stroke-width="1.5"/>
-  <path d="M265.62,162.73 A55.00,55.00 0 0 1 203.27,139.00 L224.51,125.82 A30.00,30.00 0 0 0 258.52,138.76 Z" fill="#f1e05a" stroke="#0d1117" stroke-width="1.5"/>
-  <path d="M203.27,139.00 A55.00,55.00 0 0 1 200.19,86.67 L222.83,97.28 A30.00,30.00 0 0 0 224.51,125.82 Z" fill="#663399" stroke="#0d1117" stroke-width="1.5"/>
-  <path d="M200.19,86.67 A55.00,55.00 0 0 1 231.51,58.20 L239.91,81.75 A30.00,30.00 0 0 0 222.83,97.28 Z" fill="#3572A5" stroke="#0d1117" stroke-width="1.5"/>
-  <path d="M231.51,58.20 A55.00,55.00 0 0 1 250.00,55.00 L250.00,80.00 A30.00,30.00 0 0 0 239.91,81.75 Z" fill="#3178c6" stroke="#0d1117" stroke-width="1.5"/>
+  <text x="36" y="135" font-size="11" fill="#77909c">TypeScript 5.28%</text>
+  <path d="M250.00,55.00 A55.00,55.00 0 0 1 270.14,161.18 L260.98,137.92 A30.00,30.00 0 0 0 250.00,80.00 Z" fill="#e34c26" stroke="#0d1117" stroke-width="1.5"/>
+  <path d="M270.14,161.18 A55.00,55.00 0 0 1 202.16,137.14 L223.91,124.80 A30.00,30.00 0 0 0 260.98,137.92 Z" fill="#f1e05a" stroke="#0d1117" stroke-width="1.5"/>
+  <path d="M202.16,137.14 A55.00,55.00 0 0 1 201.10,84.82 L223.33,96.27 A30.00,30.00 0 0 0 223.91,124.80 Z" fill="#663399" stroke="#0d1117" stroke-width="1.5"/>
+  <path d="M201.10,84.82 A55.00,55.00 0 0 1 232.10,57.99 L240.24,81.63 A30.00,30.00 0 0 0 223.33,96.27 Z" fill="#3572A5" stroke="#0d1117" stroke-width="1.5"/>
+  <path d="M232.10,57.99 A55.00,55.00 0 0 1 250.00,55.00 L250.00,80.00 A30.00,30.00 0 0 0 240.24,81.63 Z" fill="#3178c6" stroke="#0d1117" stroke-width="1.5"/>
 </svg>

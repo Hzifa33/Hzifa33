@@ -206,6 +206,7 @@
   <text x="138" y="116" font-size="10" fill="#586069">Aug</text>
   <text x="183" y="116" font-size="10" fill="#586069">Sep</text>
   <text x="219" y="116" font-size="10" fill="#586069">Oct</text>
+  <text x="264" y="116" font-size="10" fill="#586069">Nov</text>
   <rect x="30" y="120" width="8" height="8" rx="1.5" fill="#ffffff"><title>2026-05-09 — 0</title></rect>
   <rect x="30" y="129" width="8" height="8" rx="1.5" fill="#ffffff"><title>2026-05-10 — 0</title></rect>
   <rect x="30" y="138" width="8" height="8" rx="1.5" fill="#cff0d8"><title>2026-05-11 — 3</title></rect>
@@ -388,4 +389,5 @@
   <rect x="255" y="156" width="8" height="8" rx="1.5" fill="#cff0d8"><title>2026-11-04 — 1</title></rect>
   <rect x="255" y="165" width="8" height="8" rx="1.5" fill="#ffffff"><title>2026-11-05 — 0</title></rect>
   <rect x="255" y="174" width="8" height="8" rx="1.5" fill="#ffffff"><title>2026-11-06 — 0</title></rect>
+  <rect x="264" y="120" width="8" height="8" rx="1.5" fill="#ffffff"><title>2026-11-07 — 0</title></rect>
 </svg>
